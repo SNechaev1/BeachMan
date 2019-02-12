@@ -1,0 +1,68 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/prefSettings">
+        <CheckBoxPreference
+            android:title="@string/prefSound"
+            android:defaultValue="true"
+            android:key="soundOn"/>
+        <ListPreference
+            android:title="@string/prefSoundtrack"
+            android:key="soundtrackList"
+            android:defaultValue="2"
+            android:entries="@array/soundtrackList"
+            android:entryValues="@array/soundListValues"
+            android:dependency="soundOn"/>
+        <SeekBarPreference
+            android:title="@string/prefGameSpeed"
+            android:key="gameSpeed"
+            android:max="20"
+            android:defaultValue="6"/>
+        <ListPreference
+            android:title="@string/prefDifficultyLevel"
+            android:key="difficultyList"
+            android:defaultValue="2"
+            android:entries="@array/difficultyList"
+            android:entryValues="@array/difficultyListValues"
+            android:summary="@string/prefSumDifficultyLevel"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/prefScreenOrientation">
+        <CheckBoxPreference
+            android:title="@string/prefLandscape"
+            android:key="screenOrientationLandscape"
+            android:defaultValue="true"
+            android:summaryOn="@string/prefLandscape"
+            android:summaryOff="@string/prefPortrait"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/prefAbout">
+
+        <Preference
+            android:title="@string/prefFeedback"
+            android:summary="@string/prefSumFeedback">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="mailto:snechaev1@gmail.com">
+                <extra
+                    android:name="android.intent.extra.SUBJECT"
+                    android:value="Feedback"/>
+                <extra
+                    android:name="android.intent.extra.TEXT"
+                    android:value="Text of Feedback"/>
+            </intent>
+        </Preference>
+
+        <Preference
+            android:title="@string/prefCredit"
+            android:summary="@string/prefSumCredit">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.snechaev.men/beachman-credits/"/>
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="soundtrackList">
+        <item>techno1</item>
+        <item>techno2</item>
+        <item>dramatic</item>
+        <item>acoustic</item>
+    </string-array>
+
+    <string-array name="soundListValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+
+    <string-array name="difficultyList">
+        <item>easy</item>
+        <item>hopeful</item>
+        <item>nightmare</item>
+        <item>hell</item>
+    </string-array>
+
+    <string-array name="difficultyListValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Beach man</string>
+    <string name="setting">SETTING</string>
+    <string name="play">PLAY</string>
+    <string name="prefSettings">Settings</string>
+    <string name="prefSound">Sound</string>
+    <string name="prefSoundtrack">Soundtracks</string>
+    <string name="prefGameSpeed">GameSpeed</string>
+    <string name="prefDifficultyLevel">Difficulty Level</string>
+    <string name="prefScreenOrientation">Screen Orientation</string>
+    <string name="prefLandscape">Landscape</string>
+    <string name="prefPortrait">Portrait</string>
+    <string name="prefAbout">About</string>
+    <string name="prefFeedback">Feedback</string>
+    <string name="prefSumFeedback">Email us for question, suggestion or bug report</string>
+    <string name="prefCredit">Credits</string>
+    <string name="prefSumCredit">Show web page</string>
+    <string name="prefSumDifficultyLevel">affects the number of flying bomb</string>
+
+</resources>

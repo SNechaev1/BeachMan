@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Пляжный человек</string>
+    <string name="setting">НАСТРОЙКИ</string>
+    <string name="play">ИГРАТЬ</string>
+    <string name="prefSettings">Настройки</string>
+    <string name="prefSound">Звук</string>
+    <string name="prefSoundtrack">Звуковые файлы</string>
+    <string name="prefDifficultyLevel">Уровни Сложности</string>
+    <string name="prefScreenOrientation">Ориентация Экрана</string>
+    <string name="prefLandscape">Ландшафт</string>
+    <string name="prefPortrait">Портрет</string>
+    <string name="prefAbout">Разное</string>
+    <string name="prefFeedback">Отзыв</string>
+    <string name="prefSumFeedback">Писать по вопросам, предложениям и ошибкам</string>
+    <string name="prefCredit">Используемые материалы</string>
+    <string name="prefSumCredit">Показать страницу в интернете</string>
+    <string name="prefSumDifficultyLevel">влияет на количество пролетающих бомб</string>
+    <string name="prefGameSpeed">Скорость Игры</string>
+</resources>
